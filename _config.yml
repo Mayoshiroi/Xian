@@ -7,10 +7,12 @@ avatar: /images/avatar.png # change avatar
 markdown: kramdown
 highlighter: rouge
 
-# Pagination
-paginate: 5
-paginate_path: "/page:num/"
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate-v2]
+
+pagination:
+  enabled: true
+  permalink: '/page:num/'
+  per_page: 5
 
 # Comments
 # disqus:
